@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.556d88a9.css",
-    "main.js": "/static/js/main.2d5143bb.js",
-    "static/js/787.56d9acf9.chunk.js": "/static/js/787.56d9acf9.chunk.js",
-    "static/media/background.png": "/static/media/background.5365732c8adc2e71b306.png",
-    "static/media/first-project.jpg": "/static/media/first-project.0e3e4be7713ba4883c77.jpg",
-    "static/media/Screenshot (1).png": "/static/media/Screenshot (1).80575aec5d1e72e8579f.png",
-    "static/media/Devon Eadie Logo.png": "/static/media/Devon Eadie Logo.c35e2cb3c26a64679912.png",
-    "static/media/Valorant_Cover_Art.webp": "/static/media/Valorant_Cover_Art.0cd52de64b6e5ddf9990.webp",
-    "static/media/Profile 1.jpg": "/static/media/Profile 1.c1ca65d7d718d3a5a47a.jpg",
-    "static/media/vancouver.webp": "/static/media/vancouver.f6d5556a776dd497349c.webp",
-    "static/media/Devon_Eadie_-_ .pdf": "/static/media/Devon_Eadie_-_ .3cce1b5fd64fc9884803.pdf",
-    "static/media/logo.png": "/static/media/logo.d7543d97bfd7515ca39f.png",
-    "static/media/craftydezignz.png": "/static/media/craftydezignz.03affd13fb0cdac59536.png",
-    "index.html": "/index.html",
-    "main.556d88a9.css.map": "/static/css/main.556d88a9.css.map",
-    "main.2d5143bb.js.map": "/static/js/main.2d5143bb.js.map",
-    "787.56d9acf9.chunk.js.map": "/static/js/787.56d9acf9.chunk.js.map"
+    "main.css": "/new-react-portfolio/static/css/main.d1a7d999.css",
+    "main.js": "/new-react-portfolio/static/js/main.886f6f21.js",
+    "static/js/787.56d9acf9.chunk.js": "/new-react-portfolio/static/js/787.56d9acf9.chunk.js",
+    "static/media/background.png": "/new-react-portfolio/static/media/background.5365732c8adc2e71b306.png",
+    "static/media/first-project.jpg": "/new-react-portfolio/static/media/first-project.0e3e4be7713ba4883c77.jpg",
+    "static/media/Screenshot (1).png": "/new-react-portfolio/static/media/Screenshot (1).80575aec5d1e72e8579f.png",
+    "static/media/Devon Eadie Logo.png": "/new-react-portfolio/static/media/Devon Eadie Logo.c35e2cb3c26a64679912.png",
+    "static/media/Valorant_Cover_Art.webp": "/new-react-portfolio/static/media/Valorant_Cover_Art.0cd52de64b6e5ddf9990.webp",
+    "static/media/Profile 1.jpg": "/new-react-portfolio/static/media/Profile 1.c1ca65d7d718d3a5a47a.jpg",
+    "static/media/vancouver.webp": "/new-react-portfolio/static/media/vancouver.f6d5556a776dd497349c.webp",
+    "static/media/Devon_Eadie_-_ .pdf": "/new-react-portfolio/static/media/Devon_Eadie_-_ .3cce1b5fd64fc9884803.pdf",
+    "static/media/logo.png": "/new-react-portfolio/static/media/logo.d7543d97bfd7515ca39f.png",
+    "static/media/craftydezignz.png": "/new-react-portfolio/static/media/craftydezignz.03affd13fb0cdac59536.png",
+    "index.html": "/new-react-portfolio/index.html",
+    "main.d1a7d999.css.map": "/new-react-portfolio/static/css/main.d1a7d999.css.map",
+    "main.886f6f21.js.map": "/new-react-portfolio/static/js/main.886f6f21.js.map",
+    "787.56d9acf9.chunk.js.map": "/new-react-portfolio/static/js/787.56d9acf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.556d88a9.css",
-    "static/js/main.2d5143bb.js"
+    "static/css/main.d1a7d999.css",
+    "static/js/main.886f6f21.js"
   ]
 }
