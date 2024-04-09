@@ -1,0 +1,43 @@
+.footer-wrapper {
+  color: white;
+  position: fixed;
+  height: auto;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #1f1f1f;
+  margin: auto;
+}
+
+.links-container {
+  text-align: center;
+  padding: 25px 50px;
+}
+
+a.link {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.link :hover {
+  color: grey;
+  transform: translateY(-2px);
+}
+
+a.instagram {
+  color: white;
+}
+
+a.github {
+  color: white;
+}
+
+a.linkedin {
+  color: white;
+}
+
+a.facebook {
+  color: white;
+}

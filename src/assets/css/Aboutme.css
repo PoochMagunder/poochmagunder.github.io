@@ -1,0 +1,272 @@
+.about-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-header {
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    background: #141414af;
+    color: white;
+    text-align: left;
+    padding: 15px;
+    border-bottom: #141414;
+    border-bottom-style: solid;
+    font-size: 18px;
+}
+
+.my-image {
+    display: flex;
+    border: #141414;
+    border-style: solid;
+    position: absolute;
+    top: 221px;
+    right: 280px;
+    border-top: none;
+    height: fit-content;
+    width: fit-content;
+}
+
+img.image {
+    max-width: 390px;
+}
+
+.my-info {
+    display: flex;
+    padding: 25px;
+    position: absolute;
+    color: white;
+    background: #141414af;
+    height: auto;
+    top: 222px;
+    left: 0px;
+    width: 50%;
+    text-align: center;
+    border-right: #141414;
+    border-right-style: solid;
+    border-bottom: #141414;
+    border-bottom-style: solid;
+    margin: auto;
+}
+
+.my-info-p {
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+.skills-info {
+    font-size: 17px;
+    border-top: #141414;
+    border-top-style: solid;
+    border-left: #141414;
+    border-left-style: solid;
+    color: white;
+    background: #141414af;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    height: auto;
+    top: 610px;
+    width: 50%;
+    right: 0px;
+    margin: auto;
+}
+
+.my-skills-header {
+    text-decoration: underline;
+    font-size: large;
+    color: darkgrey;
+    margin-top: 10px;
+}
+
+.skills-list {
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+}
+
+.im-from-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #141414;
+    position: absolute;
+    top: 975px;
+    width: 100%;
+    height: 60%;
+    color: white;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.location-info {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+p.info-p {
+    margin-bottom: 30px;
+}
+
+img.vancouver {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 50%;
+}
+
+@media screen and (max-width: 1360px) {
+
+    .my-image {
+        right: 1.2em;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    .im-from-wrapper {
+        top: 1030px;
+    }
+
+    .skills-info {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 872px) {
+    
+    .im-from-wrapper {
+        top: 1040px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .my-image {
+        position: relative;
+        top: auto;
+        left: 0;
+        width: 100%;
+    }
+
+    img.image {
+        max-width: 100%;
+    }
+
+
+    .my-info {
+        position: relative;
+        top: auto;
+        height: auto;
+        width: 100%;
+        border-top: #141414;
+        border-top-style: solid;
+        border-right: none;
+    }
+
+    .skills-info {
+        position: relative;
+        top: auto;
+        height: auto;
+        width: 100%;
+        border-left: none;
+    }
+
+    .im-from-wrapper {
+        position: relative;
+        top: auto;
+        height: 440px;
+        width: 100%;
+        border: #141414;
+        border-style: solid;
+
+    }
+
+    img.vancouver {
+        width: 300px;
+        left: 10%;
+    }
+}
+
+
+
+@media screen and (max-width: 390px) {
+    .my-image {
+        left: 0;
+        max-width: 100%;
+
+    }
+
+    .im-from-wrapper {
+        top: 0;
+        border: #141414;
+        border-style: solid;
+
+    }
+
+    img.vancouver {
+        max-width: 300px;
+
+    }
+
+    .my-info {
+        height: auto;
+        top: 0;
+        width: auto;
+        border-top: #141414;
+        border-top-style: solid;
+        border-right: none;
+    }
+
+    .skills-info {
+        height: auto;
+        width: 100%;
+        top: 0;
+        border-left: none;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .my-image {
+        left: 0;
+        max-width: 100%;
+
+    }
+
+    .im-from-wrapper {
+        top: 0;
+        border: #141414;
+        border-style: solid;
+
+    }
+
+    img.vancouver {
+        max-width: 300px;
+
+    }
+
+    .my-info {
+        height: auto;
+        top: 0;
+        width: auto;
+        border-top: #141414;
+        border-top-style: solid;
+        border-right: none;
+    }
+
+    .skills-info {
+        height: auto;
+        width: 100%;
+        top: 0;
+        border-left: none;
+    }
+}

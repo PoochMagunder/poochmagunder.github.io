@@ -1,0 +1,125 @@
+.project-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 100px;
+}
+
+.project-container {
+  margin: auto;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.project-header {
+  height: fit-content;
+  width: 100%;
+  background: #141414af;
+  color: white;
+  text-align: left;
+  padding: 15px;
+  border-bottom: #141414;
+  border-bottom-style: solid;
+  font-size: 18px;
+}
+
+.Card {
+  text-decoration: none;
+}
+
+.cardimgs {
+  max-height: 160px;
+}
+
+.fourthcardimg {
+  height: 160px;
+}
+
+.first-project-card {
+  width: 20rem;
+  margin-right: 30px;
+  text-align: center;
+  border: #141414;
+  border-style: solid;
+}
+
+.second-project-card {
+  width: 20rem;
+  text-align: center;
+  border: #141414;
+  border-style: solid;
+}
+
+.third-project-card {
+  max-width: 20rem;
+  margin-left: 30px;
+  text-align: center;
+  border: #141414;
+  border-style: solid;
+}
+
+.fourth-project-card {
+  max-width: 20rem;
+  margin-left: 30px;
+  text-align: center;
+  border: #141414;
+  border-style: solid;
+}
+
+@media screen and (max-width: 1252px) {
+  .project-container {
+    margin-top: 30px;
+    flex-direction: column;
+  }
+
+  .first-project-card {
+    margin-right: 0px;
+  }
+
+  .second-project-card {
+    margin-top: 30px;
+  }
+  .third-project-card {
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+
+  .fourth-project-card {
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 865px) {
+  .first-project-card {
+    margin-right: 0px;
+  }
+
+  .second-project-card {
+    margin-top: 30px;
+  }
+  .third-project-card {
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .first-project-card {
+    margin-top: 30px;
+  }
+
+  .second-project-card {
+    margin-top: 10px;
+  }
+  .third-project-card {
+    margin-top: 10px;
+    margin-bottom: 120px;
+  }
+}

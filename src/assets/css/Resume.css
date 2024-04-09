@@ -1,0 +1,49 @@
+.resume-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-header {
+  height: auto;
+  width: 100%;
+  background: #141414af;
+  color: white;
+  text-align: left;
+  padding: 15px;
+  border-bottom: #141414;
+  border-bottom-style: solid;
+  font-size: 18px;
+}
+
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #141414af;
+  height: auto;
+  color: white;
+  width: fit-content;
+  border: #141414;
+  border-style: solid;
+  margin-top: 60px;
+}
+
+.resume-img {
+  max-width: 300px;
+}
+
+#downloadBtn {
+  background-color: #141414;
+  color: white;
+  font-size: large;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 5px;
+}
